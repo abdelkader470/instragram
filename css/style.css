@@ -1,0 +1,23 @@
+.nav-pills li a:hover {
+  background-color: #ddd5f0;
+}
+.w-15 {
+  width: 15%;
+}
+.w-10 {
+  width: 10%;
+}
+.logo-font {
+  font-family: "Grand Hotel", cursive;
+  font-size: 30px;
+  color: black;
+  font-weight: 500;
+}
+.out-line-n {
+  outline: none !important;
+  border-color: #ddd5f0 !important;
+  border-width: 1px !important;
+}
+.border-img {
+  border: 2px solid salmon;
+}
