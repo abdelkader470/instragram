@@ -1,5 +1,5 @@
 const slider = document.querySelector(".slider-img");
-const btnLogon = document.querySelector("#btn-login");
+const btnLogon = document.querySelector("#btn-sign");
 const errMessage = document.querySelector(".err-message");
 
 const changeBanner = () => {
@@ -12,12 +12,15 @@ const changeBanner = () => {
   }, 6000);
 };
 const checkLoginBtn = () => {
-  let pass = document.querySelector(`#login-pass`);
-
-  let email = document.querySelector(`#login-email`);
-  let btnLogin = document.querySelector(`#btn-login`);
-
-  pass.value.length > 5 && email.value.length > 5
+  let username = document.querySelector(`#sign-username`);
+  let pass = document.querySelector(`#sign-pass`);
+  let conPass = document.querySelector(`#sign-con-pass`);
+  let email = document.querySelector(`#sign-email`);
+  let btnLogin = document.querySelector(`#btn-sign`);
+  username.value.length > 5 &&
+  pass.value.length > 5 &&
+  conPass.value.length > 5 &&
+  email.value.length > 5
     ? (btnLogin.disabled = false)
     : (btnLogin.disabled = true);
   console.log("check");
@@ -32,7 +35,34 @@ const changeInput = (classname, input) => {
 
 changeBanner();
 //-------------------------------------------start valdation-------------------------------------------------------------
+function signup() {
+  var userName = document.getElementById("sign-username");
+  var email = document.getElementById("sign-email");
+  var password = document.getElementById("sign-pass");
+  var confirmPassword = document.getElementById("sign-con-pass");
 
+  if (!validateName(userName)) {
+    return false;
+  }
+  if (!validateEmail(email)) {
+    return false;
+  }
+
+  if (!validatePassword(password)) {
+    return false;
+  }
+
+  if (!validateConfirmPassword(password, confirmPassword)) {
+    return false;
+  }
+  // Save the email value to the local storage
+  localStorage.setItem("userName", userName);
+  localStorage.setItem("email", email);
+  localStorage.setItem("password", password);
+  localStorage.setItem("confirmPassword", confirmPassword);
+
+  window.open("index.html");
+}
 function validateEmail(email) {
   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailPattern.test(email);
@@ -50,8 +80,8 @@ function validateConfirmPassword(password, confirmPassword) {
 }
 
 function loginFunc() {
-  let email = document.getElementById("login-email").value;
-  let password = document.getElementById("login-pass").value;
+  let email = document.getElementById("sign-email").value;
+  let password = document.getElementById("sign-pass").value;
 
   if (!validateEmail(email)) {
     return false;
@@ -64,7 +94,7 @@ function loginFunc() {
     email === localStorage.getItem("email") &&
     password === localStorage.getItem("password")
   ) {
-    window.open("index.html");
+    window.open("index.html", "_self");
   }
 }
 

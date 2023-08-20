@@ -19,10 +19,17 @@
             <div class="logoIcon-c">
               <img src="./images/icons.png" alt="" />
             </div>
-
             <div class="inpt-c">
               <input
-                id="login-email"
+                id="sign-username"
+                onkeyup="changeInput('label-username',this)"
+                type="text"
+              />
+              <label id="label-username" for="">Username</label>
+            </div>
+            <div class="inpt-c">
+              <input
+                id="sign-email"
                 onkeyup="changeInput('label-email',this)"
                 type="email"
               />
@@ -30,26 +37,33 @@
             </div>
             <div class="inpt-c">
               <input
-                id="login-pass"
+                id="sign-pass"
                 onkeyup="changeInput('label-pass',this)"
                 type="password"
               />
               <label id="label-pass" for="">password</label>
             </div>
-
-            <button disabled="true" id="btn-login" onclick="loginFunc()">
-              Login
+            <div class="inpt-c">
+              <input
+                id="sign-con-pass"
+                onkeyup="changeInput('label-con-pass',this)"
+                type="password"
+              />
+              <label id="label-con-pass" for="">confirm password</label>
+            </div>
+            <button disabled="true" id="btn-sign" onclick="signup()">
+              Sign Up
             </button>
             <p id="OR-line">----------------<span>OR</span>----------------</p>
-            <a id="login-facebook" href="">Login with Facebook</a>
+            <a id="login-facebook" href="">SignUp with Facebook</a>
             <p class="err-message">
-              There was a problem Logging you into Instagram. Please try again
+              There was a problem SignUp you into Instagram. Please try again
               soon.
             </p>
             <a id="forgot-pass" href="">Forgot password?</a>
           </form>
           <div class="subForm">
-            <p>I Don't have an account? <a href="signUp.html">Sign Up</a></p>
+            <p>I already have an account? <a href="login.html">Login</a></p>
           </div>
           <p>Get the app</p>
           <div class="img-c">
@@ -90,5 +104,5 @@
     </div>
   </body>
 
-  <script src="js/login.js"></script>
+  <script src="js/signUp.js"></script>
 </html>

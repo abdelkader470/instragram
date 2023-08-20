@@ -218,3 +218,10 @@ footer > ul > li{
         justify-content: center;
     }
 }
+
+form.active {
+  transform: translateY(-50%);
+  opacity: 1;
+  z-index: 200;
+  transition-delay: .3s;
+}
