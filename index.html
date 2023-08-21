@@ -18,7 +18,9 @@
     <div class="container-fluid">
       <div class="row">
         <!-- ------------------------sideBar----------------------------------- -->
-        <div class="col-xl-2 col-lg-2 col-md-2 min-vh-100 bg-white d-flex">
+        <div
+          class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-12 min-vh-100 bg-white fixed-sidebar"
+        >
           <div class="bg-white">
             <a class="d-flex text-decoration-none mt-1 align-items-center">
               <span class="d-none d-sm-inline logo-font ms-3 py-2"
@@ -89,7 +91,7 @@
                 </a>
               </li>
             </ul>
-            <div class="nav-item py-2 ms-3 col-md-12">
+            <div class="nav-item py-2 ms-4 d-none d-sm-inline">
               <a href="#" class="nav-link text-dark" aria-current="page">
                 <img
                   src="images/profile.jpg"
@@ -109,7 +111,7 @@
                 aria-expanded="false"
               >
                 <i class="fa-solid fa-bars fa-xl" style="color: #000000"></i>
-                <span class="ms-2">More</span>
+                <span class="display-6 ms-2 d-none d-sm-inline">More</span>
               </button>
               <ul class="dropdown-menu dropdown-menu-lg-start">
                 <li>
@@ -130,225 +132,16 @@
           </div>
         </div>
         <!-- ----------------------line------------------------------------- -->
-        <div class="vr p-0 m-0"></div>
+        <div class="vr p-0 m-0 d-none d-md-block"></div>
         <!-- -------------------------main Content---------------------------------- -->
-        <div class="col-xl-4 col-lg-4 m-auto">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 col-12 m-auto">
           <!-- ------------------Start Story--------------------------------- -->
-          <!-- <div
-              id="carouselExample"
-              class="carousel slide"
-              data-bs-ride="true"
-            >
-              <div class="carousel-inner pb-5">
-                <div class="carousel-item bg-white mt-0">
-                  <div class="container bg-white">
-                    <div class="row align-items-center justify-content-center">
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
-                        <div class="item">
-                          <img
-                            src="images/messi.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
-                        <div class="item">
-                          <img
-                            src="images/ronaldo.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-6">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item active bg-white mt-0">
-                  <div class="container bg-white">
-                    <div class="row align-items-center justify-content-center">
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/messi.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/ronaldo.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item active bg-white mt-0">
-                  <div class="container bg-white">
-                    <div class="row align-items-center justify-content-center">
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/messi.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/ronaldo.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                        <div class="item">
-                          <img
-                            src="images/loca.jpg "
-                            class="w-100 rounded-circle"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExample"
-                data-bs-slide="prev"
-              >
-                <span
-                  class="carousel-control-prev-icon w-h-20 rounded-circle"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExample"
-                data-bs-slide="next"
-              >
-                <span
-                  class="carousel-control-next-icon w-h-20 rounded-circle"
-                  aria-hidden="true"
-                ></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div> -->
+
           <!-- -----------------------------End Story-------------------------------------- -->
           <div id="js-post">
-            <!-- <div class="d-flex justify-content-between align-items-center js-post">
+            <div
+              class="d-flex justify-content-between align-items-center js-post"
+            >
               <div class="d-flex align-items-center">
                 <img
                   src="images/toni.jpg"
@@ -400,8 +193,9 @@
               class="w-100 border-top-0 border-end-0 border-start-0 out-line-n"
               placeholder="Add a comment..."
             />
-          </div> -->
-          <!-- <div class="py-3">
+          </div>
+
+          <div class="py-3">
             <div class="d-flex justify-content-between align-items-center">
               <div class="d-flex align-items-center">
                 <img
@@ -454,10 +248,10 @@
               class="w-100 border-top-0 border-end-0 border-start-0 out-line-n"
               placeholder="Add a comment..."
             />
-          </div> -->
+          </div>
         </div>
         <!-- ----------------------------last sideBar---------------------------------- -->
-        <div class="col-xl-3 col-lg-3 py-5 pe-4">
+        <div class="col-xl-3 col-lg-3 d-none d-lg-block py-5 pe-4">
           <div class="d-flex align-items-center">
             <img src="images/profile.jpg" class="w-15 rounded-circle" alt="" />
 

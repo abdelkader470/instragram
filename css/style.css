@@ -53,3 +53,10 @@
   height: 20px !important;
   background-color: #484747 !important;
 }
+/* Add this CSS to your stylesheet */
+.fixed-sidebar {
+  position: fixed !important;
+
+  z-index: 1 !important;
+  overflow-y: auto !important;
+}
