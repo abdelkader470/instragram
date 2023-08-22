@@ -1017,3 +1017,9 @@ img {
   position: relative !important;
   left: 30% !important;
 }
+.red-heart {
+  color: red !important;
+}
+.black-heart {
+  color: black !important;
+}

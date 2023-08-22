@@ -1,5 +1,6 @@
 const posts = [
   {
+    id: 1,
     profileImg: "images/ronaldo.jpg",
     name: "Cristiano",
     postImg: "images/ronaldoPost.jpg",
@@ -11,6 +12,7 @@ const posts = [
     caption: "𝑻𝒉𝒆 𝒔𝒕𝒐𝒓𝒚 𝒄𝒐𝒏𝒕𝒊𝒏𝒖𝒆𝒔…",
   },
   {
+    id: 2,
     profileImg: "images/profile.jpg",
     name: "Abdelkader",
     postImg: "images/post6.PNG",
@@ -22,6 +24,7 @@ const posts = [
     caption: "Ya Rab ❤",
   },
   {
+    id: 3,
     profileImg: "images/profile2.jpg",
     name: "Ahmed",
     postImg: "images/post2.jpg",
@@ -33,6 +36,7 @@ const posts = [
     caption: "allahuma saliy wasalim eali sayidna muhamad",
   },
   {
+    id: 4,
     profileImg: "images/messi.jpg",
     name: "Messi",
     postImg: "images/messiPost.jpg",
@@ -44,6 +48,7 @@ const posts = [
     caption: "Buenas noches, Miami!!! ",
   },
   {
+    id: 5,
     profileImg: "images/profile.jpg",
     name: "Abdullah",
     postImg: "images/post4.jpg",
@@ -55,6 +60,7 @@ const posts = [
     caption: "Full Stack Web Developer 😎❤",
   },
   {
+    id: 6,
     profileImg: "images/loca.jpg",
     name: "Luka Modric",
     postImg: "images/lukaPost2.jpg",
@@ -66,6 +72,7 @@ const posts = [
     caption: "HALA MADRID! 🤍😀🙏",
   },
   {
+    id: 7,
     profileImg: "images/abutricka.jpg",
     name: "Abou tricka",
     postImg: "images/aboutrickaPost.jpg",
@@ -77,6 +84,7 @@ const posts = [
     caption: "One World One Home",
   },
   {
+    id: 8,
     profileImg: "images/profile.jpg",
     name: "ITI",
     postImg: "images/itiPost.jpg",
