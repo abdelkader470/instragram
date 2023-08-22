@@ -1,7 +1,7 @@
 let postHTML = ``;
 posts.forEach((post) => {
   postHTML += `
-  <div class="d-flex justify-content-between align-items-center">
+  <div class="d-flex justify-content-between align-items-center pt-3">
               <div class="d-flex align-items-center">
                 <img
                   src="${post.profileImg}"

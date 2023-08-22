@@ -44,7 +44,7 @@ const posts = [
     caption: "Buenas noches, Miami!!! ",
   },
   {
-    profileImg: "images/profile6.jpg",
+    profileImg: "images/profile.jpg",
     name: "Abdullah",
     postImg: "images/post4.jpg",
     react: {
@@ -77,7 +77,7 @@ const posts = [
     caption: "One World One Home",
   },
   {
-    profileImg: "images/iti.png",
+    profileImg: "images/profile.jpg",
     name: "ITI",
     postImg: "images/itiPost.jpg",
     react: {

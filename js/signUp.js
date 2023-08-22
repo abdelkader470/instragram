@@ -36,10 +36,10 @@ const changeInput = (classname, input) => {
 changeBanner();
 //-------------------------------------------start valdation-------------------------------------------------------------
 function signup() {
-  var userName = document.getElementById("sign-username");
-  var email = document.getElementById("sign-email");
-  var password = document.getElementById("sign-pass");
-  var confirmPassword = document.getElementById("sign-con-pass");
+  var userName = document.getElementById("sign-username").value;
+  var email = document.getElementById("sign-email").value;
+  var password = document.getElementById("sign-pass").value;
+  var confirmPassword = document.getElementById("sign-con-pass").value;
 
   if (!validateName(userName)) {
     return false;
@@ -94,7 +94,8 @@ function loginFunc() {
     email === localStorage.getItem("email") &&
     password === localStorage.getItem("password")
   ) {
-    window.open("index.html", "_self");
+    // window.open("http://127.0.0.1:5503/index.html", "_self");
+    location.href("/index.html");
   }
 }
 
