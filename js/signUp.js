@@ -61,7 +61,7 @@ function signup() {
   localStorage.setItem("password", password);
   localStorage.setItem("confirmPassword", confirmPassword);
 
-  window.open("index.html");
+  window.open("home.html");
 }
 function validateEmail(email) {
   var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -94,8 +94,8 @@ function loginFunc() {
     email === localStorage.getItem("email") &&
     password === localStorage.getItem("password")
   ) {
-    // window.open("http://127.0.0.1:5503/index.html", "_self");
-    location.href("/index.html");
+    // window.open("http://127.0.0.1:5503/home.html", "_self");
+    location.href("/home.html");
   }
 }
 

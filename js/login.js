@@ -64,7 +64,7 @@ function loginFunc() {
     email === localStorage.getItem("email") &&
     password === localStorage.getItem("password")
   ) {
-    window.open("index.html");
+    window.open("home.html");
   }
 }
 

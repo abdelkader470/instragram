@@ -57,7 +57,7 @@
 .fixed-sidebar {
   position: fixed !important;
 
-  z-index: 1 !important;
+  z-home: 1 !important;
   overflow-y: auto !important;
 }
 /* ------------------------------------------------------------------ */
@@ -142,7 +142,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-home: 2;
 }
 .header::after {
   content: "";
@@ -240,7 +240,7 @@ img {
   position: fixed;
   bottom: 0;
   left: 0;
-  z-index: 2;
+  z-home: 2;
 }
 .navbar::after {
   content: "";
@@ -350,7 +350,7 @@ img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1;
+  z-home: 1;
 }
 .stories__left-button {
   left: 10px;
