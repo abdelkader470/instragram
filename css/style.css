@@ -134,7 +134,7 @@ img {
 .header {
   width: 100%;
   height: var(--header-height);
-  background-color: var(--primary);
+  background-color: white;
 
   display: flex;
   justify-content: center;
@@ -142,7 +142,7 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  z-home: 2;
+  z-index: 2;
 }
 .header::after {
   content: "";
