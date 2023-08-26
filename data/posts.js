@@ -25,7 +25,7 @@ let posts = [
   },
   {
     id: 3,
-    profileImg: "images/profile2.jpg",
+    profileImg: "images/profile8.jpg",
     name: "Ahmed",
     postImg: "images/post2.jpg",
     react: {
@@ -49,7 +49,7 @@ let posts = [
   },
   {
     id: 5,
-    profileImg: "images/profile.jpg",
+    profileImg: "images/profile10.jpeg",
     name: "Abdullah",
     postImg: "images/post4.jpg",
     react: {
@@ -85,8 +85,8 @@ let posts = [
   },
   {
     id: 8,
-    profileImg: "images/profile.jpg",
-    name: "ITI",
+    profileImg: "images/profile9.jpg",
+    name: "Omer",
     postImg: "images/itiPost.jpg",
     react: {
       like: 200,
