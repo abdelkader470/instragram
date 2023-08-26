@@ -1,4 +1,4 @@
-const posts = [
+let posts = [
   {
     id: 1,
     profileImg: "images/ronaldo.jpg",
