@@ -17,10 +17,10 @@ const checkLoginBtn = () => {
   let conPass = document.querySelector(`#sign-con-pass`);
   let email = document.querySelector(`#sign-email`);
   let btnLogin = document.querySelector(`#btn-sign`);
-  username.value.length > 5 &&
-  pass.value.length > 5 &&
-  conPass.value.length > 5 &&
-  email.value.length > 5
+  username.value.length > 3 &&
+  pass.value.length > 3 &&
+  conPass.value.length > 3 &&
+  email.value.length > 3
     ? (btnLogin.disabled = false)
     : (btnLogin.disabled = true);
   console.log("check");
